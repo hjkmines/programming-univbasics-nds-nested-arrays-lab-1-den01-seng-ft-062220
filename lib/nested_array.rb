@@ -33,14 +33,9 @@ def sorted_matrix
   
     organic = ORGANIC_PRODUCE
     conventional = CONVENTIONAL_PRODUCE
-  
-    organic.sort()
-    conventional.sort()
-    fridge = [CONVENTIONAL_PRODUCE, ]
     
+    fridge = [conventional.sort(), organic.sort()]
     
-  
-  
 end
 
 def matrix_lookup(matrix, row, column)
